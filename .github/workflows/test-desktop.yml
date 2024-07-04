@@ -1,4 +1,4 @@
-name: test-desktop ci/cd
+name: test-desktop ci_cd
 
 on:
   push:
