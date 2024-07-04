@@ -19,9 +19,7 @@ jobs:
 
     env:
       Solution_Name: IBM_HashUrl.sln                         # Replace with your solution name, i.e. MyWpfApp.sln.
-      Test_Project_Path: IBM_HashUrl.Tests\IBM_HashUrl.Tests.csproj                 # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
-      Wap_Project_Directory: IBM_HashUrl.Package    # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
-      Wap_Project_Path: IBM_HashUrl.App.Package\IBM_HashUrl.Package.wapproj                   # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.
+     
 
     steps:
     - name: Checkout
